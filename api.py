@@ -11,3 +11,12 @@ def initial_setup():
         writer = pd.ExcelWriter('data.xlsx')
         data.to_excel(writer,'Data', index = False)
         writer.save()
+
+def add():
+    print('added')
+
+def remove():
+    print('removed')
+
+def charge():
+    print('charged')
